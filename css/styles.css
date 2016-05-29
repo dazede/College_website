@@ -33,6 +33,26 @@ li a {
     text-decoration: none;
 }
 
+.button {
+    width: 100%;
+    z-index: 9999;
+    position: relative;
+    color: #6c4a29;
+    display: none;
+}
+
+.button h1{
+    display: none;
+    position: fixed;
+    margin-left: 20%;
+    margin-top: 20px;
+    background-color: #fffbf8;
+    padding: 10px;
+    display: none;
+}
+
+.c-hamburger { display: none;}
+
 .side {
     height: 20px;
 }
@@ -454,12 +474,101 @@ li a {
     width: 150px;
     height: 150px;
 }
+<<<<<<< HEAD
     #gallery {
     height: 800px;
 }
+=======
+@media (max-width: 950px) {
+  nav ul     { display: none; }
+  
+.button { display: block }
+
+.c-hamburger:focus {
+  outline: none;
+}
+.c-hamburger { display: block;
+  background-color: #fffbf8;
+  position: fixed;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 2%;
+  padding: 0;
+  width: 50px;
+  height: 48px;
+  font-size: 0px;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 9px;
+  right: 9px;
+  height: 4px;
+  background: #936b46;
+  transition: background 0s 0.3s;
 }
 
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: "";
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+  
+}
 
+.c-hamburger span::before {
+  top: -10px;
+  background-color: #936b46;
+   transition-property: top, transform;
+}
+
+.c-hamburger span::after {
+  bottom: -10px;
+  background-color: #936b46;
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color: #936b46;;
+>>>>>>> origin/master
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+  background-color: #fffbf8;
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+  background-color: #fffbf8;
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
+}
+}
+}
 @media screen and (max-width: 810px) {
 .photos {
     margin-left: 10%;
@@ -474,20 +583,17 @@ li a {
     height: 650px;
 }
 }
-
-
 @media screen and (max-width: 710px) {
     #gallery {
     height: 800px;
 }
 }
- @media screen and (max-width: 557px) {
-    .icons {
-    margin-top: 320px;
+ @media screen and (max-width: 610px) {
+    .title {display: none;}
+    .button h1 {display: block}
+    .home { height: 170px;}
+    .icons {margin-top: 100px;}
 }
- }
-    
-    
  @media screen and (max-width: 530px) {
 .photos {
     margin-top: 120px;
@@ -509,9 +615,6 @@ li a {
 
     #gallery {
     height: 550px;
-}
-.home {
-    height: 400px;
 }
 
  }
