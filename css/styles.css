@@ -407,11 +407,55 @@ li a {
 }
     
 /*-----------------------media query-----------------------------*/
+@media screen and (max-width: 2500px) {
+    #gallery {
+        height: 750px;
+    }
+    .photos {
+    margin-right: 23%;
+}
+}
+@media screen and (max-width: 2110px) {
+        #gallery {
+        height: 750px;
+    }
+    .photos {
+    margin-right: 15%;
+}
+}
+@media screen and (max-width: 1655px) {
+        #gallery {
+        height: 700px;
+    }
+    .photos {
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width: 1490px) {
+        #gallery {
+        height: 900px;
+    }
+    .photos {
+        margin-right: 10%;
+    }
+
+}
+@media screen and (max-width: 1120px) {
+    .photos {
+        margin-right: auto;
+    }
+
+}
 
 @media screen and (max-width: 977px) {
 .photo {
     width: 150px;
     height: 150px;
+}
+    #gallery {
+    height: 800px;
 }
 }
 
@@ -453,14 +497,24 @@ li a {
     height: 100px;
 }
     #gallery {
-    height: 570px;
+    height: 480px;
 }
 .home {
     height: 400px;
 }
 
  }
-    
+
+ @media screen and (max-width: 388px) {
+
+    #gallery {
+    height: 550px;
+}
+.home {
+    height: 400px;
+}
+
+ }
     
     
     
