@@ -1,0 +1,496 @@
+body {
+    background-color: #f9f4f1;
+    margin: 0;
+    font-family: 'caviar_dreamsregular';
+}
+
+/* {
+    outline: 1px solid yellow;
+} */
+ 
+
+ul {
+    list-style-type: none;
+    margin: 50px 0 0 5px;
+    padding: 0;
+    width: 10%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+li a:hover {
+    color: white;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.side {
+    height: 20px;
+}
+
+.home {
+    color: #fbf8f8;
+    text-align: center;
+    height: 500px;
+    background-color: #e6d4c0;
+    z-index: -1;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    
+}
+.title {
+    position: absolute;
+    left: 0;
+    top: 38%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+.icons {
+    position: absolute;
+    width: 100%;
+    margin-top: 260px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.fb {
+    width: 40px;
+    height: 40px;
+}
+
+.fb:hover {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+.about {
+    height: 400px;
+    background-color: #f6ede5;
+    color: #a47d58;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.about h2 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 40px;
+    font-size: 2em;
+    font-family: 'caviar_dreamsbold'
+}
+.about_p {
+    margin-top: 100px;
+    margin-left: 15%;
+    position: absolute;
+    width: 70%;
+    text-align: left;
+    font-size: 1.2em;
+}
+.middle {
+    height: 1800px;
+    position: relative;
+}
+
+
+.one {
+    position: relative;
+}
+
+/*---------------------triangles---------------------- */
+
+.tri_1 {
+    margin-left: 10%;
+    height: 500px;
+    width: 55%;
+    margin-right: 10%;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.fem_1 {
+    position: absolute;
+    margin-left: 15%;
+    height: 350px;
+    margin-top: 120px;
+    box-shadow: 10px 10px 5px #43403d;
+}
+
+.fem_1:hover {
+    height: 370px;
+    margin-left: calc(15% + 5px);
+    margin-top: 125px; 
+    cursor: pointer;
+    opacity: 0.9;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.tri1_off {
+    height: 300px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 67%;
+    box-shadow: 5px 5px 5px #43403d;
+}
+
+.tri1_off2 {
+    height: 300px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: 75%;
+    box-shadow: 5px 5px 5px #43403d;
+}
+
+.tri1_off3 {
+    height: 300px;
+    margin-top: 190px;
+    position: absolute;
+    margin-left: 80%;
+    box-shadow: 5px 5px 5px #43403d;
+}
+
+.tri1_off:hover {
+    cursor: pointer;
+    margin-left: 66%;
+    margin-top: 180px;
+    height: 320px;
+    z-index: 1;
+}
+
+.tri1_off2:hover {
+    height: 320px;
+    margin-top: 140px;
+    margin-left: 74%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.tri1_off3:hover {
+    height: 320px;
+    margin-top: 190px;
+    margin-left: 79%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.name_1 {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 200px;
+    height: 150px;
+}
+
+.two {
+    position: relative;
+}
+
+.tri_2 {
+    height: 500px;
+    width: 50%;
+    margin-right: 0;
+    margin-left: 50%;
+    margin-top: 640px;
+    position: absolute;
+}
+
+.on_2 {
+    position: absolute;
+    margin-left: 75%;
+    height: 350px;
+    margin-top: 620px;
+    box-shadow: -5px 5px 5px 5px #aca092;
+}
+
+.on_2:hover {
+    height: 370px;
+    margin-left: calc(75% + 5px);
+    margin-top: 625px; 
+    cursor: pointer;
+    opacity: 0.9;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.tri2_off {
+    height: 300px;
+    margin-top: 770px;
+    position: absolute;
+    margin-left: 30%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.tri2_off2 {
+    height: 300px;
+    margin-top: 700px;
+    position: absolute;
+    margin-left: 25%;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 2em;
+}
+
+.tri2_off:hover {
+    cursor: pointer;
+    margin-left: 28%;
+    margin-top: 750px;
+    height: 320px;
+    z-index: 1;
+}
+
+.tri2_off2:hover {
+    height: 320px;
+    margin-top: 680px;
+    margin-left: 23%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.name_2 {
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 720px;
+    height: 150px;
+}
+
+.three {
+    position: relative;
+}
+
+.tri_3 {
+    margin-left: 10%;
+    height: 500px;
+    width: 55%;
+    margin-top: 1200px;
+    position: absolute;
+}
+
+.on_3 {
+    position: absolute;
+    margin-left: 15%;
+    height: 250px;
+    margin-top: 1180px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.on_3:hover {
+    height: 270px;
+    margin-left: calc(15% + 5px);
+    margin-top: 1185px; 
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.tri3_off {
+    height: 300px;
+    margin-top: 1200px;
+    position: absolute;
+    margin-left: 77%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.tri3_off2 {
+    height: 300px;
+    margin-top: 1250px;
+    position: absolute;
+    margin-left: 70%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.tri3_off:hover {
+    cursor: pointer;
+    margin-left: 78%;
+    margin-top: 1180px;
+    height: 320px;
+    z-index: 1;
+}
+
+.tri3_off2:hover {
+    height: 320px;
+    margin-top: 1220px;
+    margin-left: 71%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.name_3 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 1325px;
+    height: 150px;
+}
+
+
+/*---------------------gallery-----------------------*/
+
+#gallery {
+    height: 1100px;
+    color: #fbf8f8;
+    background-color: #e5d1bf;
+    position: relative;
+    margin: auto;
+}
+
+.images {
+    display: table-cell;
+    align-items: center;
+    
+}
+
+#gallery h2{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 60px;
+    font-size: 2em;
+    font-family: 'caviar_dreamsbold'
+}
+
+
+table, td, tr {
+    display: inline-block;
+    padding: 3px;
+    padding-top: 0;
+}
+
+.photos {
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+#more {
+    margin-left: calc(43% + 6px) ;
+    font-size: 1.3em;
+}
+#more:hover {
+    cursor: pointer;
+    
+}
+
+.photo1 {
+    width: 180px;
+    height: 180px;
+}
+.photo2 {
+    width: 180px;
+    height: 180px;
+}
+.photo3 {
+    width: 180px;
+    height: 180px;
+}
+.photo4 {
+    width: 180px;
+    height: 180px;
+}
+.photo44 {
+    width: 180px;
+    height: 180px;
+}
+.photo34 {
+    width: 180px;
+    height: 180px;
+}
+.photo44 {
+    width: 180px;
+    height: 180px;
+}
+
+.photo:hover {
+    cursor: pointer;
+ 
+}
+
+#contact{
+    background-color: #eadbcc;
+    height: 500px;
+    height: 400px;
+    margin: auto ;
+    color: #a47d58;
+}
+
+#contact p{
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
+    color: white;
+    margin-top: 100px;
+    position: absolute;
+    color: #a47d58;
+} 
+    
+#contact h2 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 60px;
+    font-size: 2em;
+    font-family: 'caviar_dreamsbold'
+}
+    
+/*-----------------------media query-----------------------------*/
+
+@media screen and (max-width: 977px) {
+
+
+table, td, tr {
+    padding: 2px;
+    padding-top: 0;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+}
+}
+
+@media screen and (max-width: 810px) {
+
+
+table, td, tr {
+    padding: 2px;
+    padding-top: 0;
+}
+.photo {
+    width: 130px;
+    height: 130px;
+}
+}
+
+@media screen and (max-width: 810px) {
+    
+}
+    
+ @media screen and (max-width: 507px) {
+.side {
+    display: none;
+}
+}
+    
+    
+    
+    
+    
+    
